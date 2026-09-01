@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pleat & Stitch — Premium Saree Pleating & Blouse Tailoring Studio</title>
+    <meta name="description" content="Luxury saree pleating, ready-to-wear pre-stitched sarees, custom blouse tailoring, designer embroidery, and bridal styling services." />
+    <meta property="og:title" content="Pleat & Stitch — Premium Saree Pleating & Blouse Tailoring Studio" />
+    <meta property="og:description" content="Turn your favourite sarees and blouses into flawless, perfectly finished looks. Express pleating, custom designer blouses, and bridal draping." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              plum: {
+                50: '#fcf6f8',
+                100: '#f8ecf1',
+                200: '#f2dae4',
+                300: '#e7bbcd',
+                400: '#d591ad',
+                500: '#be6b8e',
+                600: '#a34e71',
+                700: '#863c5a',
+                800: '#6f334b',
+                900: '#4a1525',
+                950: '#2e0b17',
+              },
+              champagne: {
+                50: '#fbf9f3',
+                100: '#f6f1e2',
+                200: '#ede0c4',
+                300: '#e1ca9e',
+                400: '#d4af74',
+                500: '#c59a54',
+                600: '#b28143',
+                700: '#8e6236',
+                800: '#754f30',
+                900: '#61422b',
+              },
+              rosecream: '#FAF6F0',
+              ivory: '#FDFBF7',
+              blush: '#F9ECEC',
+              warmgray: '#786F6B',
+              charcoal: '#221C1D',
+            },
+            fontFamily: {
+              serif: ['"Cormorant Garamond"', '"Playfair Display"', 'Georgia', 'serif'],
+              display: ['"Playfair Display"', 'Georgia', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 85px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: #FDFBF7;
+        color: #221C1D;
+        overflow-x: hidden;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      /* Dark mode luxury theme base */
+      html.dark body {
+        background-color: #120409;
+        color: #F8ECF1;
+      }
+
+      html.dark {
+        color-scheme: dark;
+      }
+
+      html.dark .bg-ivory {
+        background-color: #120409;
+      }
+
+      html.dark input,
+      html.dark select,
+      html.dark textarea {
+        background-color: #1f0a14 !important;
+        color: #FAF6F0 !important;
+        border-color: #421626 !important;
+      }
+
+      html.dark input::placeholder,
+      html.dark textarea::placeholder {
+        color: #8f7982 !important;
+      }
+
+      h1, h2, h3, .font-serif-luxury {
+        font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+      }
+
+      /* Custom delicate scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #FAF6F0;
+      }
+      html.dark ::-webkit-scrollbar-track {
+        background: #120409;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #d591ad;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #863c5a;
+      }
+      html.dark ::-webkit-scrollbar-thumb {
+        background: #6f334b;
+      }
+      html.dark ::-webkit-scrollbar-thumb:hover {
+        background: #a34e71;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.0/",
+    "react": "https://esm.sh/react@^19.2.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.0/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.553.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.29.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.24"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-ivory text-charcoal antialiased selection:bg-plum-200 selection:text-plum-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

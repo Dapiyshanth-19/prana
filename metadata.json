@@ -1,0 +1,6 @@
+{
+  "name": "Pleat & Stitch",
+  "description": "Premium saree pleating, ready-to-wear pre-stitched sarees, custom blouse tailoring, designer embroidery, and bridal styling services studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
